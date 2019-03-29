@@ -26,9 +26,9 @@ npm install --save-dev @khalyomede/fang-browserify@0.*
 ```javascript
 // package.json
 {
-    "scripts": {
-        "fang": "fang"
-    }
+  "scripts": {
+    "fang": "fang"
+  }
 }
 ```
 
@@ -40,8 +40,8 @@ const fang = require('@khalyomede/fang');
 const browserify = require('@khalyomede/fang-browserify');
 
 const js = () => fang.from('src/js/**/*.js')
-    .do(browserify())
-    .save('dist/js');
+  .do(browserify())
+  .save('dist/js');
 
 const build = [js];
 
@@ -63,8 +63,8 @@ const fang = require('@khalyomede/fang');
 const browserify = require('@khalyomede/fang-browserify');
 
 const js = () => fang.from('src/js/**/*.js')
-    .do(browserify())
-    .save('dist/js');
+  .do(browserify())
+  .save('dist/js');
 
 const build = [js];
 
@@ -80,8 +80,8 @@ const fang = require('@khalyomede/fang');
 const browserify = require('@khalyomede/fang-browserify');
 
 const js = () => fang.from('src/js/**/*.js')
-    .do(browserify({
-        debug: true // add a soure map inlined at the end of the file
-    }))
-    .save('dist/js');
+  .do(browserify({
+    debug: true // add a soure map inlined at the end of the file
+  }))
+  .save('dist/js');
 ```
