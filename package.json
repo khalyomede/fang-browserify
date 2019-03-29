@@ -1,5 +1,5 @@
 {
-	"name": "fang-browserify",
+	"name": "@khalyomede/fang-browserify",
 	"version": "0.1.0",
 	"description": "Fang plugin to use browserify",
 	"main": "lib/main.js",
