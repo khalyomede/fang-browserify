@@ -84,4 +84,8 @@ const js = () => fang.from('src/js/**/*.js')
     debug: true // add a soure map inlined at the end of the file
   }))
   .save('dist/js');
+
+const build = [js];
+
+module.exports = { build };
 ```
