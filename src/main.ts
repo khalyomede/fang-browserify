@@ -9,6 +9,10 @@ const fangBrowserify = options => fang => {
 		const fileName = basename(file.path);
 		var done = false;
 
+		if (fang.options.debug) {
+			fang.info(`converting ${fileName}...`);
+		}
+
 		browserify(file.path, options).bundle((error, buffer) => {
 			if (error) {
 				throw error;
@@ -20,10 +24,6 @@ const fangBrowserify = options => fang => {
 		});
 
 		deasync.loopWhile(() => !done);
-
-		if (fang.options.debug) {
-			fang.info(`converting ${fileName}...`);
-		}
 
 		if (fang.options.debug) {
 			fang.info(`converted ${fileName}`);
