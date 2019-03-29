@@ -1,0 +1,38 @@
+{
+	"name": "fang-browserify",
+	"version": "0.1.0",
+	"description": "Fang plugin to use browserify",
+	"main": "lib/main.js",
+	"repository": "https://github.com/khalyomede/fang-browserify",
+	"author": "Khalyomede <khalyomede@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"fang",
+		"browserify",
+		"task runner",
+		"bundler",
+		"browser",
+		"plugin"
+	],
+	"devDependencies": {
+		"@khalyomede/fang": "0.*",
+		"@types/node": "11.*",
+		"gulp": "4.*",
+		"gulp-typescript": "5.*",
+		"typescript": "3.*"
+	},
+	"dependencies": {
+		"browserify": "16.*",
+		"deasync": "0.*"
+	},
+	"scripts": {
+		"start": "gulp listen",
+		"build": "gulp build",
+		"fang": "fang",
+		"browserify": "browserify"
+	},
+	"files": [
+		"lib/main.js"
+	]
+}
