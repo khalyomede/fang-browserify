@@ -1,6 +1,6 @@
 {
 	"name": "@khalyomede/fang-browserify",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Fang plugin to use browserify",
 	"main": "lib/main.js",
 	"repository": "https://github.com/khalyomede/fang-browserify",
