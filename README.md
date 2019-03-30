@@ -2,6 +2,8 @@
 
 [Fang](https://www.npmjs.com/package/@khalyomede/fang) plugin to use browserify.
 
+![npm](https://img.shields.io/npm/v/@khalyomede/fang-browserify.svg) ![npm (prod) dependency version](https://img.shields.io/npm/dependency-version/@khalyomede/fang-browserify/browserify.svg) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@khalyomede/fang-browserify.svg) ![NPM](https://img.shields.io/npm/l/@khalyomede/fang-browserify.svg) 
+
 ## Summary
 
 - [Installation](#installation)
