@@ -17,7 +17,6 @@
 	],
 	"devDependencies": {
 		"@khalyomede/fang": "0.*",
-		"@types/node": "11.*",
 		"gulp": "4.*",
 		"gulp-typescript": "5.*",
 		"typescript": "3.*"
